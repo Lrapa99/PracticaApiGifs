@@ -1,0 +1,27 @@
+
+.Gif {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 4px 13px 1px rgba(0,0,0,0.57);
+    
+}
+
+.img-content{
+    width: 450px;
+    height: 300px;
+  }
+
+  img{
+    width:100%;
+    height:auto;
+  }
+
+  i {
+    font-weight: 600;
+    font-size: 40px;
+  }

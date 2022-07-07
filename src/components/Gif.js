@@ -1,13 +1,14 @@
 import React from "react"
+import "./Gif.css"
 
 
-function Gif({title, id , url}){
+export default function Gif({title, id , url}){
     return (
-    <React.Fragment>
-        <h4>{title}</h4>
-        <small>{id}</small>
-        <img alt={title} src={url} />
-    </React.Fragment> 
+    <a href={`#${id}`} className="Gif">
+         <h4>{title}</h4>
+      <div className="img-content">
+        <img alt={title} src={url} /> 
+      </div>
+    </a>
   )
 }
-export default Gif
