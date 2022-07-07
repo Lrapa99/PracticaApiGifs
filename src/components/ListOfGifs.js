@@ -19,7 +19,7 @@ export default function ListOfGifs({params }) {
       setLoading(false) //fin loading
       })},[keyword])
 
-      if (loading) return <i>Loading...</i>
+      if (loading) return <i>Cargando...</i>
 
     return <div>
       {

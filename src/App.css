@@ -14,6 +14,10 @@
   font-size: 20px;
 }
 
+.App span{
+  color: cyan;
+}
+
 .App a:hover{
   color: cyan;
 }
